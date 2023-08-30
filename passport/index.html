@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.7">
+    <title>MCPC | 通行证办理</title>
+    <link rel="stylesheet" href="./../css/uramain.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./../logo.png" type="image/x-icon">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        :root *{
+            transition: all .3s;
+        }
+        #main{
+            width: 500px;
+            height: 220px;
+            border-radius: 10px;
+            border: 1px solid #363636;
+            background-color: #fff;
+            text-align: left;
+        }#main input[type='text']{
+            display: inline-block;
+            outline: none;
+            margin-left: 20px;
+        }#main select{
+            margin-left: 20px;
+            outline: none;
+        }#main button{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 80px;
+            height: 30px;
+            outline: none;
+            border: none;
+            background: linear-gradient(165deg,#2980b9,#3498db);
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all .3s;
+            cursor: pointer;
+        }#main button:hover{
+            filter: brightness(1.1);
+        }#main button:active{
+            filter: brightness(.95);
+            transform: scale(.95);
+        }#show{
+            width: 440px;
+            height: 275px;
+            border: 1px solid #aeaeae;
+            background-color: #fff;
+            border-radius: 5px;
+            background-size: cover;
+            display: inline-block;
+        }#show p{
+            font-weight: normal;
+            font-size: 14px;
+            font-family: 'simson';
+        }#show img{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }#photo{
+            cursor: pointer;
+            position: absolute;
+            top: 70px;
+            left: 15px;
+            border: 1.5px solid #000;
+            border-radius: 3px;
+            width: 140px;
+            height: 160px;
+        }#photo-img{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }#show *{
+            z-index: 2;
+        }
+        #show-bg{
+            width: 200px;
+            height: 200px;
+            background-image: url(./../logo.png);
+            background-size: cover;
+            opacity: .3;
+            z-index: 1;
+        }#info{
+            display: inline-block;
+            position: absolute;
+            top: 64px;
+            left: 170px;
+            text-align: left;
+        }#info p{
+            font-size: 16px;
+            font-weight: lighter;
+            margin: 0;
+        }#info p span{
+            transition: all .3s;
+            margin-left: 5px;
+            outline: none;
+        }#info p span[contenteditable="true"]{
+            color: #2980b9;
+        }#info p span[contenteditable="true"]:focus{
+            background-color: #2980b9;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }#info p span[contenteditable="false"]{
+            color: #000;
+        }#control{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }#control button{
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            color: #fff;
+            font-weight: bold;
+            background-color: #2980b9;
+            padding: 5px;
+            padding-left: 10px;
+            padding-right: 10px;
+            transition: all .3s;
+            cursor: pointer;
+        }#control button:hover{
+            filter: brightness(1.14);
+        }#control button:active{
+            filter: brightness(.95);
+            transform: scale(.95);
+        }#change-photo-box{
+            width: 300px;
+            height: 130px;
+            border-radius: 7px;
+            background-color: #f2f2f2;
+            border: 1px solid #363636;
+            box-shadow: 0 0 10px grey;
+            transition: all .3s;
+            position: absolute;
+        }#change-photo-box *{
+            margin: 0;
+            padding: 0;
+            font-weight: lighter;
+        }#change-photo-box input[type='text']{
+            outline: none;
+            border: 1px solid #363636;
+            padding: 4px;
+        }#change-photo-box button{
+            display: inline-block;
+            padding: 4px;
+            padding-left: 6px;
+            padding-right: 6px;
+            cursor: pointer;
+            background-color: #2980b9;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            border-radius: 3px;
+        }#change-photo-box button:hover{
+            filter: brightness(1.2);
+        }#change-photo-box button:active{
+            filter: brightness(.95);
+            transform: scale(.95);
+        }
+        @media(max-width:430px){
+            #show{
+                transform: scale(.8) translate(35px);
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div id="show">
+            <img src="./img/soviet.png" draggable="false" alt="icon" width="50px" height="50px"/>
+            <h1 style="font-weight: lighter;font-size: 19px;position: absolute;left: 65px;">MCPC</h1>
+            <h2 style="font-weight: lighter;font-size: 17px;;position: absolute;top: 22px;left: 65px;">MCPC</h2>
+            <div id="photo" title="点击更换照片" onclick="changePhoto()">
+                <img src="./img/junai.jpg" style="margin: 0;" draggable="false" id="photo-img" alt="photo">
+            </div>
+            <div id="show-bg" class="center"></div>
+            <div id="info">
+                <p>姓名:<span contenteditable="true">腐竹</span></p>
+                <p>性别:<span contenteditable="true">男</span></p>
+                <p>生日:<span contenteditable="true">未知</span></p>
+                <p>户籍地:<span contenteditable="true">未知</span></p>
+                <p>QQ号:<span contenteditable="true">未知</span></p>
+                <p>游戏ID:<span contenteditable="true">未知</span></p>
+                <p>办理机关:<span>移民局</span></p>
+                <p>通行证号:<span id="num">未知</span></p>
+            </div>
+            <b style="display: inline-block;font-weight: lighter;position: absolute;bottom: 10px;left: 13px;">114514114514114514114514114514114514</b>
+        </div>
+       
+    </div>
+    <div id="change-photo-box" style="top: -100%;" class="center">
+        <h2 style="margin-top: 5px;">更改照片</h2>
+        <input type="text" placeholder="图片链接" id="purl"/>
+        <button id="psave">保存</button>
+    </div>
+    <div id="control">
+        <button id="help" style="background-color: #f1c40f;">帮助</button>
+        <button id="save">确认</button>
+        <button id="modi" style="background-color:#e74c3c;">修改</button>
+        <button id="print" style="background-color: #2ecc71;" onclick="print()">打印</button>
+    </div>
+    <a href="" style="display: none;" id="spawn" download="download">生成图片</a>
+</body>
+<script>
+    window.onload = ()=>{
+        document.onkeydown = (e)=>{
+            if(e.keyCode == '13'){
+                return false;
+            }
+        }
+    };
+    
+    function keydowninfo(n){
+        const info_p_span = document.querySelectorAll('#info p span');
+        info_p_span[n].addEventListener('keydown',e=>{
+    if(e.target.innerText.length > 15){
+        e.preventDefault();
+    }})};
+    keydowninfo(0);
+    keydowninfo(1);
+    keydowninfo(2);
+    keydowninfo(3);
+    keydowninfo(4);
+    keydowninfo(5);
+function changePhoto(){
+    const cpbox = document.getElementById('change-photo-box');
+    if(cpbox.style.top == '-100%'){
+        cpbox.style.top = '50%';
+    }else{
+        cpbox.style.top = '-100%'
+    }
+};document.getElementById('save').onclick = ()=>{
+    const arr = $('#info p span[contenteditable="true"]');
+    function randomString(length, chars) {
+    var result = '';
+    for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+    return result;
+}
+var rString = randomString(11, '0123456789');
+    arr[0].contentEditable = 'false';
+    arr[1].contentEditable = 'false';
+    arr[2].contentEditable = 'false';
+    arr[3].contentEditable = 'false';
+    arr[4].contentEditable = 'false';
+    arr[5].contentEditable = 'false';
+    document.getElementById('num').innerText = rString;
+};document.getElementById('modi').onclick = ()=>{
+    const arr = $('#info p span[contenteditable="false"]');
+    arr[0].contentEditable = 'true';
+    arr[1].contentEditable = 'true';
+    arr[2].contentEditable = 'true';
+    arr[3].contentEditable = 'true';
+    arr[4].contentEditable = 'true';
+    arr[5].contentEditable = 'true';
+    document.getElementById('num').innerText = '未知';
+};document.getElementById('help').onclick = ()=>{
+    alert('请在此通行证模板上进行更改以创建您自己的通行证\n其中蓝色字体代表可更改，您可以在这里修改您的信息\n点击照片即可弹出替换框，将您自己的照片上传上去\n在一切信息填写完毕后点击“确认”按钮使信息不可修改，如果发现错填可以点击“修改”进行重新填写\n最终确定后按下“打印”生成通行证图片')
+};
+     
+document.getElementById('psave').onclick = () => {
+   let url = document.getElementById('purl').value;
+  const photo = document.getElementById('photo-img');
+  photo.setAttribute('src',url);
+
+};function print(){
+            html2canvas(document.querySelector("#show"),{useCORS: true }).then(canvas => {
+                    let oImg = new Image();
+                    const img = document.getElementById('photo-img');
+                    oImg.setAttribute('src', canvas.toDataURL());
+                    let a = document.getElementById('spawn');
+                    a.href = oImg.src;
+                    a.click();}
+                )
+                
+}
+        
+</script>
+</html>

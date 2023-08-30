@@ -1,0 +1,526 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>OUR-SOVIET</title>
+
+    <meta name="description" content="Description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+        
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon"> 
+
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+
+</head>
+
+<body>
+
+	<main class="main">
+		
+		<div class="main-inner">
+
+			<!-- Begin mobile main menu -->
+<nav class="mmm">
+    <div class="mmm-content">
+        <ul class="mmm-list">
+            <li>
+                <a href="#">主页</a>
+            </li>
+            <li>
+                <a href="product/">产品</a>
+            </li>
+			<li>
+				<a href="#">社区</a>
+			</li>
+            <li>
+                <a href="Version/">版本支持</a>
+            </li>
+            <!-- <li>
+                <a href="tabs-and-accordions.html">Download</a>
+            </li> -->
+            <li>
+                <a href="news/">新闻</a>
+            </li>
+            <!-- <li>
+                <a href="contacts.html">联系</a>
+            </li> -->
+			<li>
+                <a href="about/">关于</a>
+            </li>
+        </ul>
+    </div>
+</nav><!-- End mobile main menu -->
+<!-- <div class="bff">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="bff-container">
+                    <p>Get Full-Featured <br class="d-sm-none"> PathSoft Template</p>
+                    <div class="btn-group justify-content-center justify-content-md-start">
+                        <a href="https://www.templatemonster.com/website-templates/pathsoft-it-solutions-for-your-business-services-website-template-83414.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>HTML5</span>
+                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                        </a>
+                        <a href="https://www.templatemonster.com/wordpress-themes/pathsoft-it-solutions-for-your-business-services-wordpress-theme-99496.html?utm_campaign=blog_site_KovalWeb&utm_source=KovalWeb&utm_medium=referral&aff=KovalWeb" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>WordPress</span>
+                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<header class="header header-minimal">
+    <nav class="header-fixed">
+        <div class="container">
+            <div class="row flex-nowrap align-items-center justify-content-between">
+                <div class="col-auto header-fixed-col logo-wrapper">
+                    <a href="index.html" class="logo" title="OUR-SOVIET">
+                        <img src="assets/img/logo.png" width="255" height="176" alt="PathSoft">
+                    </a>
+                </div>
+                <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
+                    <div class="row flex-nowrap align-items-center justify-content-end">
+                        <div class="col header-fixed-col d-none d-xl-block col-static">
+                            <!-- Begin main menu -->
+<nav class="main-mnu">
+    <ul class="main-mnu-list">
+        <li>
+            <a href="#" data-title="主页">
+                <span>主页</span>
+            </a>
+        </li>
+        <li>
+            <a href="product/index.html" data-title="产品">
+                <span>产品</span>
+            </a>
+        </li>
+		<li>
+			<a href="https://bbs.swifts.org.cn/" data-title="社区">
+				<span>社区</span>
+		</li>
+        <li>
+            <a href="Version/index.html" data-title="版本支持">
+                <span>版本支持</span>
+            </a>
+        </li>
+        <!-- <li>
+            <a href="tabs-and-accordions.html" data-title="Download">
+                <span>Download</span>
+            </a>
+        </li> -->
+        <li>
+            <a href="news/index.html" data-title="新闻">
+                <span>新闻</span>
+            </a>
+        </li>
+        <!-- <li>
+            <a href="contacts.html" data-title="Contacts">
+                <span>联系</span>
+            </a>
+        </li> -->
+		<li>
+            <a href="about/index.html" data-title="关于">
+                <span>关于</span>
+            </a>
+        </li>
+    </ul>
+</nav><!-- End main menu -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto d-block d-xl-none header-fixed-col">
+                    <div class="main-mnu-btn">
+                        <span class="bar bar-1"></span>
+                        <span class="bar bar-2"></span>
+                        <span class="bar bar-3"></span>
+                        <span class="bar bar-4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+			<div class="section-bgc intro">
+				<div class="intro-item intro-item-type-1" style="background-image: url('assets/img/intro-img1.jpg');">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="intro-content" style="--margin-left: 4rem;">
+									<div class="section-heading shm-none">
+										<div class="section-subheading">操作系统</div>
+										<h1>SU OS 
+											<br>SU操作系统</h1>
+										<p class="section-desc">SU OS是一个由一群学生开发的Linux操作系统的发行版，目前正在开发阶段。
+
+										</p>
+									</div>
+									<div class="btn-group intro-btns">
+										<a href="product/" class="btn btn-with-icon btn-small ripple">
+											<span>下载</span>
+											<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+										</a>
+										<a href="https://bbs.swifts.org.cn" class="btn btn-border btn-with-icon btn-small ripple">
+											<span>社区</span>
+											<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">操作系统系列</div>
+								<h2>多版本</h2>
+							</div>
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<a href="product/Intel/" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<div class="iitem-icon-bg">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<h3 class="iitem-heading item-heading-large">SU OS Intel版</h3>
+								<div class="iitem-desc">SU OS...</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<a href="product/AMD/" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<div class="iitem-icon-bg">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<h3 class="iitem-heading item-heading-large">SU OS AMD版</h3>
+								<div class="iitem-desc">SU OS...</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<a href="product/ARM/" class="iitem item-style iitem-hover">
+								<div class="iitem-icon">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<div class="iitem-icon-bg">
+									<svg t="1686100791455" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13237" width="200" height="200"><path d="M39.893333 607.36A136.192 136.192 0 0 0 0 703.658667v181.632a136.192 136.192 0 0 0 136.192 136.192H317.866667a136.192 136.192 0 0 0 136.192-136.192V567.466667H136.192c-36.138667 0-70.741333 14.336-96.298667 39.893333zM317.824 0H136.192A136.192 136.192 0 0 0 0 136.192V317.866667a136.192 136.192 0 0 0 136.192 136.192h317.824V136.192A136.192 136.192 0 0 0 317.824 0z m567.466667 567.466667H567.466667v317.824a136.192 136.192 0 0 0 136.192 136.192h181.632a136.192 136.192 0 0 0 136.192-136.192v-181.632a136.192 136.192 0 0 0-136.192-136.192z m0-567.466667h-181.632A136.192 136.192 0 0 0 567.466667 136.192v317.824h317.824a136.192 136.192 0 0 0 136.192-136.192V136.192A136.192 136.192 0 0 0 885.290667 0z" fill="#c4ebff" p-id="13238"></path></svg>
+								</div>
+								<h3 class="iitem-heading item-heading-large">SU OS ARM版</h3>
+								<div class="iitem-desc">SU OS...</div>
+							</a>
+						</div>
+						<div class="section-footer col-12 section-footer-animate">
+							<div class="btn-group align-items-center justify-content-center">
+								<a href="product/" class="btn btn-with-icon btn-w240 ripple">
+									<span>点击查看所有内容</span>
+									<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg#arrow-right"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-bgc">
+				<div class="container">
+					<div class="row litems">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">特性</div>
+								<h2>SU操作系统特点</h2>
+							</div> 
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">01</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">轻量化 <br> 流畅体验</h3>
+									<div class="ini-desc">
+										<p>我们针对一些低性能硬件制作了轻量化的特性。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">02</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">UI<br> 全新的桌面环境</h3>
+									<div class="ini-desc">
+										<p>我们为了美观，采取了全新的不同于传统Windows的设计。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">03</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">UI动画</h3>
+									<div class="ini-desc">
+										<p>SU OS这些动画能提升您的体验，而对于更低性能的硬件上，为了系统的正常运行，关闭了一些动效。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">04</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">开发/办公 <br> Pro版</h3>
+									<div class="ini-desc">
+										<p>SU OS的Pro版适用于开发和办公等使用环境，值得一提的是，Pro版是免费的，不过Pro版本可能在低性能硬件上缺乏流畅。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">05</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">软件 <br> rapp软件商店</h3>
+									<div class="ini-desc">
+										<p>我们为了改善新SU OS用户的体验，内置了rapp软件商店，用户可以在商店内下载所需的软件。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 litem">
+							<div class="ini">
+								<div class="ini-count">06</div>
+								<div class="ini-info">
+									<h3 class="ini-heading item-heading-large">帮助 <br> 系统社区</h3>
+									<div class="ini-desc">
+										<p>如果您在使用过程中遇到技术性问题，您可以在我们的社区论坛上发布问题描述，以便我们解决它。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="section-heading heading-center">
+								<h2>Ask <mark>OUR-SOVIET</mark></h2>
+							</div>
+							<div class="accordion">
+								<div class="row gutters-default">
+									<div class="col-lg-6 col-12">
+										<ul class="accordion-list">
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">什么是OUR-SOVIET？</div>
+												<div class="accordion-content content">
+													<p>蓝色的方块象征广阔的计算机天地，三道杠分别代表硬件，软件，互联网与我们沟通。</p>
+												</div>
+											</li>
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">如何在物理机上安装SU操作系统？(暂时不建议)</div>
+												<div class="accordion-content content">
+													<p>您需要准备：SU OS的光盘镜像文件、不小于8GB的USB存储器、一个磁盘写入工具； 
+                                                        在您准备好之后，使用磁盘写入工具将SU OS的iso（光盘镜像）写入您的USB存储器， 
+                                                        当写入成功后，将USB存储器插入到需要安装SU OS的计算机上，将第一启动项设为您的 USB存储器并进入，
+                                                        不出意外，您已经进入了的引导菜单。
+                                                        当您选择玩语言后，剩余操作仅需按ENTER键即可，也可进行其他操作</p>
+												</div>
+											</li>
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">问题反馈</div>
+												<div class="accordion-content content">
+													<p>当您在使用SU OS的时候遇到了一些极端bug或问题 您可以通过我们的邮箱cuteos@foxmail.com 发送问题的详细描述，
+                                                        以及触发条件，我们会对该问题进行测试评估，做出解决方案并通过下一次更新解决此问题。</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="col-lg-6 col-12">
+										<ul class="accordion-list">
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">关于SU OS收费问题</div>
+												<div class="accordion-content content">
+													<p>SU OS的所有版本都是免费的，标准版，专业版，轻量版，不同镜像只是对硬件性能的要求不同。</p>
+												</div>
+											</li>
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">我能加入开发团队吗？</div>
+												<div class="accordion-content content">
+													<p>只要您有C++/汇编/CMD/shell/C/Python/html/css任意一种代码的经验， 
+                                                        您就可以加入我们的开发团队 您可以向我们发送开发者请求，我们会进行评并批准您的加入。</p>
+												</div>
+											</li>
+											<li class="accordion-item section-bgc">
+												<div class="accordion-trigger">我不会代码，但会设计，可以加入团队吗？</div>
+												<div class="accordion-content content">
+													<p>当然可以，我们现在缺乏设计师，如壁纸，所以我们欢迎设计师加入我们团队。
+													   会Photoshop，视频剪辑即可。
+													</p>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section section-bgc">
+				<div class="container">
+					<div class="row items">
+						<header class="col-12">
+							<div class="section-heading heading-center">
+								<div class="section-subheading">更多</div>
+								<h2>新闻</h2>
+							</div> 
+						</header>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<article class="news-item item-style">
+								<a href="https://bbs.swifts.org.cn/d/22-lingmo-os-alphaban-ben-fa-bu" class="news-item-img el">
+									<img data-src="assets/img/MacBook-logo-alpha.png" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+								</a>
+								<div class="news-item-info">
+									<div class="news-item-date">2022/1/2</div>
+									<h3 class="news-item-heading item-heading">
+										<a href="https://bbs.swifts.org.cn/d/21-lingmo-os-alphaban-ben-de-kai-fa-jin-ru-wei-sheng" title="Benefits Of Async/Await">OUR-SOVIET开始开发操作系统</a>
+									</h3>
+									<div class="news-item-desc">
+										<p>SU OS...</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 item">
+							<article class="news-item item-style">
+								<a href="/" class="news-item-img el">
+									<img data-src="assets/img/1.png" class="lazy" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="">
+								</a>
+								<div class="news-item-info">
+									<div class="news-item-date">2022/12/20</div>
+									<h3 class="news-item-heading item-heading">
+										<a href="/" title="Benefits Of Async/Await">OUR-SOVIET成立</a>
+									</h3>
+									<div class="news-item-desc">
+										<p>OUR-SOVIET成立，并开始工作...</p>
+									</div>
+								</div>
+							</article>
+						</div>
+						
+						<footer class="section-footer col-12 item section-footer-animate">
+							<div class="btn-group align-items-center justify-content-center">
+								<a href="news/" class="btn btn-with-icon btn-w240 ripple">
+									<span>查看所有新闻</span>
+									<svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg"></use></svg>
+								</a>
+							</div>
+						</footer>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<div class="bff">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="bff-container">
+                    <p>加入我们 <br class="d-sm-none"> 团队</p>
+                    <div class="btn-group justify-content-center justify-content-md-start">
+                        <a href="2822439327@qq.com" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>邮箱联系</span>
+                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg"></use></svg>
+                        </a>
+                        <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CIhQonsTBhT-WlUYyoOh8wR7yrEonRCA&authKey=BThwyQIiJ0qEwvrVmpuGrVsa1EAMOoIO3qRl0ZPME%2FzvwriHA5%2F9OPjvliN5nsZK&noverify=0&group_code=778978957" class="btn btn-border btn-with-icon btn-small ripple">
+                            <span>加入QQ群</span>
+                            <svg class="btn-icon-right" viewBox="0 0 13 9" width="13" height="9"><use xlink:href="assets/img/sprite.svg"></use></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Begin footer -->
+<footer class="footer footer-minimal">
+    <div class="footer-main">
+        <div class="container">
+            <div class="row items align-items-center">
+                <div class="col-lg-3 col-md-4 col-12 item">
+                    <div class="widget-brand-info">
+                        <div class="widget-brand-info-main">
+                            <a href="index.html" class="logo" title="SU OS">
+                                <img data-src="assets/img/logo-white.png" class="lazy" width="133" height="36" src="assets/img/logo-white.png" alt="PathSoft" data-loaded="true" style="opacity: 1;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md item">
+                    <div class="footer-item">
+                        <nav class="footer-nav">
+                            <ul class="footer-mnu footer-mnu-line">
+                                <li><a href="#!" class="hover-link" data-title="主页"><span>主页</span></a></li>
+                                <li><a href="about/" class="hover-link" data-title="关于"><span>关于</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between items">
+                <div class="col-md-auto col-12 item">
+                    <nav class="footer-links">
+                        <ul>
+                            <li><a href="#!">服务条款</a></li>
+                            <li><a href="#!">隐私策略</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-auto col-12 item">
+                    <div class="copyright">© 2023 OUR-SOVIET. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!-- End footer -->
+
+	</main><!-- End main -->
+
+	<script src="assets/libs/jquery/jquery.min.js"></script>
+<script src="assets/libs/lozad/lozad.min.js"></script>
+<script src="assets/libs/device/device.js"></script>
+<script src="assets/libs/spincrement/jquery.spincrement.min.js"></script>
+<script src="assets/libs/pristine/pristine.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/forms.js"></script>
+	
+</body></html>

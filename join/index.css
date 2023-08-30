@@ -1,0 +1,19 @@
+@font-face{font-family:font;src:url("https://asset.simsoft.top/products/nlr/font.ttf");}
+body{background:rgb(255, 255, 255);font-family:微软雅黑;user-select:none;}
+*{-webkit-tap-highlight-color:transparent;}
+.main{width:fit-content;height:fit-content;inset:0;margin:auto;position:fixed;}
+.icon{width:200px;height:200px;display:inline-block;vertical-align:middle;margin-left:-30px;}
+.content{white-space:nowrap;display:inline-block;vertical-align:middle;}
+.content h1{font-family:font;font-size:3em;margin:0;}
+.content p{font-weight:bold;font-size:1.2em;margin:0;}
+.content .sentence{margin:0 -8px;margin-top:10px;opacity:.6}
+.button{margin-top:20px;border-radius:10px;overflow:hidden;width:fit-content;box-shadow:0 8px 25px -8px #f5ff9d;display:inline-block;cursor:pointer}
+.button button{display:block;border:0;outline:0;padding:10px;background:#ff0000;color:white;font-size:1.2em;display:inline-block;border-left:2px solid #66e78b;transition:opacity .2s;height:100%;height:45px;vertical-align:top;}
+.button button:hover{opacity:.8;}
+.button button:active{opacity:.6;}
+.button .first{border-left:0;font-weight:bold;padding:10px 30px;}
+.button button i{width:30px;text-align:center;font-size:1.1rem;}
+@media screen and (max-width: 500px){
+    .main{width:100%;text-align:center;}
+    .icon{margin-left:0;}
+}
